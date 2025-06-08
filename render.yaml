@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: big-market
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn big_market.wsgi:application
