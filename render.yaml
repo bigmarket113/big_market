@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: big-market
+    env: python
+    region: frankfurt
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn settings.wsgi:application"
+    pythonVersion: 3.11
