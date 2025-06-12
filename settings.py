@@ -24,7 +24,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'settings.urls'
+ROOT_URLCONF = 'big_market.urls'
 
 TEMPLATES = [
     {
@@ -42,7 +42,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'settings.wsgi.application'
+WSGI_APPLICATION = 'big_market.wsgi.application'
 
 DATABASES = {
     'default': {
