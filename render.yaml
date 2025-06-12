@@ -4,5 +4,5 @@ services:
     env: python
     region: frankfurt
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn settings.wsgi:application"
+    startCommand: "gunicorn big_market.wsgi:application"
     pythonVersion: 3.11
